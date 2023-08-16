@@ -11,12 +11,12 @@
 </head>
 
 <body>
-    <header class="text-gray-400 bg-gray-900 body-font">
+    <header class=" text-gray-900 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 body-font">
         <div class="container flex flex-wrap justify-between p-5 mx-auto md:flex-row items-center">
 
             <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar"
                 type="button"
-                class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark: text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 onclick="side_left()">
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -26,93 +26,93 @@
                 </svg>
             </button>
 
-            <a class="flex mx-auto md:mx-0 title-font font-medium items-center text-white md:mb-0" href="index.html" >
+            <a class="flex mx-auto md:mx-0 title-font font-medium items-center text-gray-800 dark: text-gray-900 dark:text-white md:mb-0" href="index.html">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-gray-800 dark: text-gray-900 dark:text-white p-2 bg-green-500 rounded-full"
                     viewBox="0 0 24 24">
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                 </svg>
-                <span class="ml-3 text-xl">Moac</span>
+                <span class="ml-3 text-xl">B.M.Pharma</span>
             </a>
 
             <!-- <nav class="hidden md:ml-auto md:mr-auto md:flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 hover:text-white">First Link</a>
-                <a class="mr-5 hover:text-white">Second Link</a>
-                <a class="mr-5 hover:text-white">Third Link</a>
-                <a class="mr-5 hover:text-white">Fourth Link</a>
+                <a class="mr-5 hover:text-green-600 dark:hover:text-green-400">First Link</a>
+                <a class="mr-5 hover:text-green-600 dark:hover:text-green-400">Second Link</a>
+                <a class="mr-5 hover:text-green-600 dark:hover:text-green-400">Third Link</a>
+                <a class="mr-5 hover:text-green-600 dark:hover:text-green-400">Fourth Link</a>
             </nav> -->
-<div class="flex items-center">
+            <div class="flex items-center">
 
-    <button id="user_icon"
-        class="inline-flex items-center bg-gray-900 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-        <svg class="h-8 w-8 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-    </button>
+                <button id="user_icon"
+                    class="inline-flex items-center bg-gray-50 dark:bg-gray-900 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 dark:hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+                    <svg class="h-8 w-8 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </button>
 
-    <button id="cart_icon"
-        class="inline-flex items-center bg-gray-900 border-0 py-1 px-3 mx-0 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 float-right md:mt-0"
-        onclick="side_right()">
-        <div class="relative p-2">
-            <div class="t-0 absolute left-5">
-                <p
-                    class="flex h-2 w-2 items-center justify-center rounded-full bg-red-500 p-2 text-xs text-white">
-                </p>
+                <button id="cart_icon"
+                    class="inline-flex items-center bg-gray-50 dark:bg-gray-900 border-0 py-1 px-3 mx-0 focus:outline-none hover:bg-gray-200 dark:hover:bg-gray-700 rounded text-base mt-4 float-right md:mt-0"
+                    onclick="side_right()">
+                    <div class="relative p-2">
+                        <div class="t-0 absolute left-5">
+                            <p
+                                class="flex h-2 w-2 items-center justify-center rounded-full bg-red-500 p-2 text-xs text-gray-800 dark: text-gray-900 dark:text-white">
+                            </p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="file: mt-2 h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                        </svg>
+                    </div>
+                </button>
+
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="file: mt-2 h-6 w-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-            </svg>
-        </div>
-    </button>
-
-</div>
 
         </div>
     </header>
 
-    <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+    <section class="  text-gray-900 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
             <div class="lg:w-4/5 mx-auto flex flex-wrap">
                 <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-                    src="https://dummyimage.com/400x400">
+                    src="/image/Ambien.jpg">
                 <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                    <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
-                    <h1 class="text-white text-3xl title-font font-medium mb-1">The Catcher in the Rye</h1>
+                    <h2 class="text-sm title-font text-gray-500 tracking-widest"></h2>
+                    <h1 class=" text-gray-900 dark:text-white text-3xl title-font font-medium mb-1">Ambien</h1>
                     <div class="flex mb-4">
                         <span class="flex items-center">
                             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-green-400"
+                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-green-600 dark:text-green-400"
                                 viewBox="0 0 24 24">
                                 <path
                                     d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
                                 </path>
                             </svg>
                             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-green-400"
+                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-green-600 dark:text-green-400"
                                 viewBox="0 0 24 24">
                                 <path
                                     d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
                                 </path>
                             </svg>
                             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-green-400"
+                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-green-600 dark:text-green-400"
                                 viewBox="0 0 24 24">
                                 <path
                                     d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
                                 </path>
                             </svg>
                             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-green-400"
+                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-green-600 dark:text-green-400"
                                 viewBox="0 0 24 24">
                                 <path
                                     d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
                                 </path>
                             </svg>
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" class="w-4 h-4 text-green-400" viewBox="0 0 24 24">
+                                stroke-width="2" class="w-4 h-4 text-green-600 dark:text-green-400" viewBox="0 0 24 24">
                                 <path
                                     d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
                                 </path>
@@ -120,12 +120,13 @@
                             <span class="ml-3">4 Reviews</span>
                         </span>
                     </div>
-                    <p class="leading-relaxed">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha
-                        taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage
-                        brooklyn.
-                        Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over,
-                        neutra
-                        jean shorts keytar banjo tattooed umami cardigan.</p>
+                    <p class="leading-relaxed">Ambien is a brand name for the medication Zolpidem, which is commonly
+                        used to treat insomnia, a sleep disorder that makes it difficult for individuals to fall asleep
+                        or stay asleep. Zolpidem belongs to a class of drugs known as sedative-hypnotics.
+                        Zolpidem works by affecting certain chemicals in the brain that may be unbalanced in people with
+                        sleep problems. It helps initiate sleep and promotes better sleep quality. It's important to
+                        note that Ambien should be used only under the guidance of a medical professional, as it can
+                        have potential side effects and interactions with other medications.</p>
                     <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
 
                         <div class="flex ml-auto items-center">
@@ -135,11 +136,11 @@
                                 <div class="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
 
                                     <button data-action="decrement"
-                                        class=" bg-gray-800 text-gray-500 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l cursor-pointer outline-none">
+                                        class=" bg-gray-200 dark:bg-gray-800 text-gray-500 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l cursor-pointer outline-none">
                                         <span class="m-auto text-2xl font-thin">-</span>
                                     </button>
                                     <input type="number"
-                                        class="focus:outline-none text-center w-full bg-gray-800 font-semibold text-md hover:text-black focus:text-black md:text-basecursor-default flex items-center text-gray-500  outline-none"
+                                        class="focus:outline-none text-center w-full bg-gray-200 dark:bg-gray-800 font-semibold text-md hover:text-black focus:text-black md:text-basecursor-default flex items-center text-gray-500  outline-none"
                                         name="custom-input-number" value="0"></input>
                                     <button data-action="increment"
                                         class="bg-gray-800 text-gray-500 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-r cursor-pointer">
@@ -154,12 +155,12 @@
 
                     </div>
                     <div class="flex">
-                        <span class="title-font font-medium text-2xl text-white">$58.00</span>
+                        <span class="title-font font-medium text-2xl text-gray-800 dark: text-gray-900 dark:text-white">Rs 150.00</span>
                         <button
-                            class="flex ml-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Buy
+                            class="flex ml-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Buy
                             it Now</button>
                         <button
-                            class="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
+                            class="rounded-full w-10 h-10 bg-gray-200 dark:bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 class="w-5 h-5" viewBox="0 0 24 24">
                                 <path
@@ -173,62 +174,15 @@
         </div>
     </section>
 
-    <section class="text-gray-400 bg-gray-900 body-font">
+    <section class=" text-gray-900 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">Raw Denim Heirloom Man
-                Braid
-                <br class="hidden sm:block">Selfies Wayfarers
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-800 dark: text-gray-900 dark:text-white mb-20">Recommendation from renoned Doctors
+                <br class="hidden sm:block">
             </h1>
             <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
                 <div class="p-4 md:w-1/3 flex">
                     <div
-                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-green-400 mb-4 flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                        </svg>
-                    </div>
-                    <div class="flex-grow pl-6">
-                        <h2 class="text-white text-lg title-font font-medium mb-2">Shooting Stars</h2>
-                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
-                            vegan
-                            taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh
-                            iceland kickstarter tumblr live-edge tilde.</p>
-                        <a class="mt-3 text-green-400 inline-flex items-center">Learn More
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3 flex">
-                    <div
-                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-green-400 mb-4 flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                            <circle cx="6" cy="6" r="3"></circle>
-                            <circle cx="6" cy="18" r="3"></circle>
-                            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                        </svg>
-                    </div>
-                    <div class="flex-grow pl-6">
-                        <h2 class="text-white text-lg title-font font-medium mb-2">The Catalyzer</h2>
-                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
-                            vegan
-                            taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh
-                            iceland kickstarter tumblr live-edge tilde.</p>
-                        <a class="mt-3 text-green-400 inline-flex items-center">Learn More
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3 flex">
-                    <div
-                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-green-400 mb-4 flex-shrink-0">
+                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 text-green-600 dark:text-green-400 mb-4 flex-shrink-0">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                             <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -236,12 +190,49 @@
                         </svg>
                     </div>
                     <div class="flex-grow pl-6">
-                        <h2 class="text-white text-lg title-font font-medium mb-2">Neptune</h2>
-                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
-                            vegan
-                            taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh
-                            iceland kickstarter tumblr live-edge tilde.</p>
-                        <a class="mt-3 text-green-400 inline-flex items-center">Learn More
+                        <h2 class=" text-gray-900 dark:text-white text-lg title-font font-medium mb-2">Dr. Alpha</h2>
+                        <p class="leading-relaxed text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio itaque neque dolor qui, laboriosam fugit harum ea vitae iste laudantium provident distinctio amet deleniti tempora optio, excepturi eum necessitatibus delectus...</p>
+                        <a class="mt-3 text-green-600 dark:text-green-400 inline-flex items-center">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 flex">
+                    <div
+                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 text-green-600 dark:text-green-400 mb-4 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class=" text-gray-900 dark:text-white text-lg title-font font-medium mb-2">Dr. Beta</h2>
+                        <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem tenetur tempora, voluptate, earum voluptatum doloremque in, vel ea natus qui deleniti neque animi vero cupiditate quod minus et nisi culpa....</p>
+                        <a class="mt-3 text-green-600 dark:text-green-400 inline-flex items-center">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 flex">
+                    <div
+                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 text-green-600 dark:text-green-400 mb-4 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class=" text-gray-900 dark:text-white text-lg title-font font-medium mb-2">Dr. Zeta</h2>
+                        <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis laboriosam quia, placeat alias quaerat, consequatur sed vitae, beatae voluptatum suscipit explicabo quis voluptatem eos inventore voluptate veniam? Possimus, esse minima...</p>
+                        <a class="mt-3 text-green-600 dark:text-green-400 inline-flex items-center">Learn More
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -253,118 +244,118 @@
         </div>
     </section>
 
-    <section class="text-gray-400 bg-gray-900 body-font">
+    <section class=" text-gray-900 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap -m-4">
                 <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="https://dummyimage.com/420x260">
+                            src="/image/Advil, Motrin.jpg">
                     </a>
                     <div class="mt-4">
-                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                        <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Fever</h3>
+                        <h2 class=" text-gray-900 dark:text-white title-font text-lg font-medium">Advil</h2>
                         <p class="mt-1">$16.00</p>
                         <button
-                            class="flex my-2 mx-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
+                            class="flex my-2 mx-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
                             to cart</button>
                     </div>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="https://dummyimage.com/421x261">
+                            src="/image/adderall-xr-30mg-20mg-15mg-10mg-500x500.webp">
                     </a>
                     <div class="mt-4">
-                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                        <h2 class="text-white title-font text-lg font-medium">Shooting Stars</h2>
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Allergy</h3>
+                        <h2 class=" text-gray-900 dark:text-white title-font text-lg font-medium">Adderall</h2>
                         <p class="mt-1">$21.15</p>
                         <button
-                            class="flex my-2 mx-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
+                            class="flex my-2 mx-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
                             to cart</button>
                     </div>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="https://dummyimage.com/422x262">
+                            src="/image/Amoxil, Biomox, Polymox.jpg">
                     </a>
                     <div class="mt-4">
-                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                        <h2 class="text-white title-font text-lg font-medium">Neptune</h2>
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Migraine</h3>
+                        <h2 class=" text-gray-900 dark:text-white title-font text-lg font-medium">Amoxil</h2>
                         <p class="mt-1">$12.00</p>
                         <button
-                            class="flex my-2 mx-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
+                            class="flex my-2 mx-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
                             to cart</button>
                     </div>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="https://dummyimage.com/423x263">
+                            src="/image/Drisdol, Calciferol.png">
                     </a>
                     <div class="mt-4">
-                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                        <h2 class="text-white title-font text-lg font-medium">The 400 Blows</h2>
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Fever</h3>
+                        <h2 class=" text-gray-900 dark:text-white title-font text-lg font-medium">Drisol</h2>
                         <p class="mt-1">$18.40</p>
                         <button
-                            class="flex my-2 mx-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
+                            class="flex my-2 mx-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
                             to cart</button>
                     </div>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="https://dummyimage.com/424x264">
+                            src="/image/luliconazole.jpeg">
                     </a>
                     <div class="mt-4">
-                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                        <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Medicine</h3>
+                        <h2 class=" text-gray-900 dark:text-white title-font text-lg font-medium">Luliconazole</h2>
                         <p class="mt-1">$16.00</p>
                         <button
-                            class="flex my-2 mx-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
+                            class="flex my-2 mx-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
                             to cart</button>
                     </div>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="https://dummyimage.com/425x265">
+                            src="/image/paracetamol-tablets.jpeg">
                     </a>
                     <div class="mt-4">
-                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                        <h2 class="text-white title-font text-lg font-medium">Shooting Stars</h2>
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Fever</h3>
+                        <h2 class=" text-gray-900 dark:text-white title-font text-lg font-medium">Paracetamol</h2>
                         <p class="mt-1">$21.15</p>
                         <button
-                            class="flex my-2 mx-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
+                            class="flex my-2 mx-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
                             to cart</button>
                     </div>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="https://dummyimage.com/427x267">
+                            src="/image/Prednisolone_jbl10e.jpg">
                     </a>
                     <div class="mt-4">
-                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                        <h2 class="text-white title-font text-lg font-medium">Neptune</h2>
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Gas</h3>
+                        <h2 class=" text-gray-900 dark:text-white title-font text-lg font-medium">Prednisolone</h2>
                         <p class="mt-1">$12.00</p>
                         <button
-                            class="flex my-2 mx-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
+                            class="flex my-2 mx-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
                             to cart</button>
                     </div>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="https://dummyimage.com/428x268">
+                            src="/image/Synthroid, Euthyrox, Levoxyl, Unithroid.jpg">
                     </a>
                     <div class="mt-4">
-                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                        <h2 class="text-white title-font text-lg font-medium">The 400 Blows</h2>
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Medicine</h3>
+                        <h2 class=" text-gray-900 dark:text-white title-font text-lg font-medium">Levoxyl</h2>
                         <p class="mt-1">$18.40</p>
                         <button
-                            class="flex my-2 mx-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
+                            class="flex my-2 mx-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add
                             to cart</button>
                     </div>
                 </div>
@@ -372,13 +363,14 @@
         </div>
     </section>
 
-    <aside id="right-sidebar" class="fixed top-0 right-0 z-40 w-80 h-screen transition-transform translate-x-full duration-1000"
+    <aside id="right-sidebar"
+        class="fixed top-0 right-0 z-40 w-80 h-screen transition-transform translate-x-full duration-1000"
         aria-label="Sidebar">
         <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
             <a href="" class="flex items-center pl-2.5 mb-5 text-gray-300 justify-between">
-                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Cart</span>
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark: text-gray-900 dark:text-white">Cart</span>
                 <button
-                    class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+                    class="inline-flex items-center bg-gray-200 dark:bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 dark:hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                     onclick="side_right()">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -387,14 +379,14 @@
                 </button>
             </a>
 
-            <section class="text-gray-400 bg-gray-900 mt-2 body-font overflow-hidden">
+            <section class=" text-gray-900 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 mt-2 body-font overflow-hidden">
                 <div class="container px-5 py-10 mx-auto">
 
                     <div class="lg:w-fit mx-auto flex">
                         <img alt="ecommerce" class="aspect-square h-20 object-cover object-center rounded"
                             src="https://dummyimage.com/100x100">
                         <div class="w-1/2 pl-4 pt-3">
-                            <h1 class="text-white text-xl title-font font-medium">The Catcher in the Rye</h1>
+                            <h1 class=" text-gray-900 dark:text-white text-xl title-font font-medium">The Catcher in the Rye</h1>
                         </div>
                     </div>
 
@@ -403,11 +395,11 @@
                             <div class="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
 
                                 <button data-action="decrement"
-                                    class=" bg-gray-800 text-gray-500 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l cursor-pointer outline-none">
+                                    class=" bg-gray-200 dark:bg-gray-800 text-gray-500 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l cursor-pointer outline-none">
                                     <span class="m-auto text-2xl font-thin">-</span>
                                 </button>
                                 <input type="number"
-                                    class="focus:outline-none text-center w-full bg-gray-800 font-semibold text-md hover:text-black focus:text-black  md:text-basecursor-default flex items-center text-gray-500  outline-none"
+                                    class="focus:outline-none text-center w-full bg-gray-200 dark:bg-gray-800 font-semibold text-md hover:text-black focus:text-black  md:text-basecursor-default flex items-center text-gray-500  outline-none"
                                     name="custom-input-number" value="0"></input>
                                 <button data-action="increment"
                                     class="bg-gray-800 text-gray-500 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-r cursor-pointer">
@@ -416,11 +408,11 @@
 
                             </div>
                         </div>
-                        <span class="title-font font-medium text-xl text-white">$58.00</span>
+                        <span class="title-font font-medium text-xl text-gray-800 dark: text-gray-900 dark:text-white">$58.00</span>
                     </div>
 
                     <button
-                        class="flex mx-auto text-white bg-green-500 border-0 mt-5 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Remove
+                        class="flex mx-auto text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 mt-5 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Remove
                         from Cart</button>
 
                 </div>
@@ -429,14 +421,15 @@
             <section class="fixed bottom-0 w-full ">
                 <div class="h-full px-3 py-5 overflow-y-auto bg-gray-50 dark:bg-gray-800">
                     <div class="flex items-center text-gray-300 justify-between">
-                        <div class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">SubTotal</div>
+                        <div class="self-center text-xl font-semibold whitespace-nowrap dark: text-gray-900 dark:text-white">SubTotal</div>
                         <div
-                            class="inline-flex items-center bg-gray-800 border-0 px-5 focus:outline-none font-semibold text-xl rounded">
+                            class="inline-flex items-center bg-gray-200 dark:bg-gray-800 border-0 px-5 focus:outline-none font-semibold text-xl rounded">
                             Rs 0</div>
                     </div>
                 </div>
                 <div class="flex justify-center pb-3"><button
-                        class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"><a href="cart.html">Checkout</a></button>
+                        class="inline-flex text-gray-800 dark: text-gray-900 dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"><a
+                            href="cart.html">Checkout</a></button>
                 </div>
             </section>
         </div>
@@ -449,7 +442,7 @@
             <a href="" class="flex items-center pl-2.5 mb-5 text-gray-300 justify-between">
 
                 <button
-                    class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+                    class="inline-flex items-center bg-gray-200 dark:bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 dark:hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                     onclick="side_left()">
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -467,86 +460,86 @@
         </div>
     </aside>
 
-    <footer class="text-gray-400 bg-gray-900 body-font">
+    <footer class=" text-gray-900 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 body-font">
         <div
             class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-                <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-800 dark: text-gray-900 dark:text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="2"
-                        class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
+                        class="w-10 h-10 text-gray-800 dark: text-gray-900 dark:text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                     </svg>
-                    <span class="ml-3 text-xl">Tailblocks</span>
+                    <span class="ml-3 text-xl"> B.M.Pharma</span>
                 </a>
                 <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
             </div>
             <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <h2 class="title-font font-medium text-gray-800 dark: text-gray-900 dark:text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-400 hover:text-white">First Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">First Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Second Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Third Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Third Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth Link</a>
                         </li>
                     </nav>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <h2 class="title-font font-medium text-gray-800 dark: text-gray-900 dark:text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-400 hover:text-white">First Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">First Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Second Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Third Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Third Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth Link</a>
                         </li>
                     </nav>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <h2 class="title-font font-medium text-gray-800 dark: text-gray-900 dark:text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-400 hover:text-white">First Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">First Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Second Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Third Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Third Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth Link</a>
                         </li>
                     </nav>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <h2 class="title-font font-medium text-gray-800 dark: text-gray-900 dark:text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-400 hover:text-white">First Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">First Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Second Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Third Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Third Link</a>
                         </li>
                         <li>
-                            <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                            <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth Link</a>
                         </li>
                     </nav>
                 </div>
@@ -554,18 +547,18 @@
         </div>
         <div class="bg-gray-800 bg-opacity-75">
             <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                <p class="text-gray-400 text-sm text-center sm:text-left">© 2020 Tailblocks —
+                <p class=" text-gray-900 dark:text-gray-400 text-sm text-center sm:text-left">© 2020  B.M.Pharma —
                     <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-500 ml-1"
                         target="_blank">@knyttneve</a>
                 </p>
                 <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                    <a class="text-gray-400">
+                    <a class=" text-gray-900 dark:text-gray-400">
                         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             class="w-5 h-5" viewBox="0 0 24 24">
                             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                         </svg>
                     </a>
-                    <a class="ml-3 text-gray-400">
+                    <a class="ml-3 text-gray-800 dark: text-gray-900 dark:text-gray-400">
                         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             class="w-5 h-5" viewBox="0 0 24 24">
                             <path
@@ -573,14 +566,14 @@
                             </path>
                         </svg>
                     </a>
-                    <a class="ml-3 text-gray-400">
+                    <a class="ml-3 text-gray-800 dark: text-gray-900 dark:text-gray-400">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                             <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                             <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                         </svg>
                     </a>
-                    <a class="ml-3 text-gray-400">
+                    <a class="ml-3 text-gray-800 dark: text-gray-900 dark:text-gray-400">
                         <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
                             <path stroke="none"
