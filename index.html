@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="product_description.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+
   <title>Landing Page</title>
 </head>
 
@@ -26,10 +28,11 @@
         </svg>
       </button>
 
-      <a class="flex mx-auto md:mx-0 title-font font-medium items-center text-gray-800 dark:text-white md:mb-0" href="index.html">
+      <a class="flex mx-auto md:mx-0 title-font font-medium items-center text-gray-800 dark:text-white md:mb-0"
+        href="index.html">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-gray-800 dark:text-white p-2 bg-green-500 rounded-full"
-          viewBox="0 0 24 24">
+          stroke-linejoin="round" stroke-width="2"
+          class="w-10 h-10 text-gray-800 dark:text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
         <span class="ml-3 text-xl">B.M.Pharma</span>
@@ -45,10 +48,11 @@
 
         <button id="user_icon"
           class="inline-flex items-center bg-gray-50 dark:bg-gray-900 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 dark:hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-          <svg class="h-8 w-8 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
+          <a href="sign_in.html">
+            <svg class="h-8 w-8 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg></a>
         </button>
 
         <button id="cart_icon"
@@ -56,7 +60,8 @@
           onclick="side_right()">
           <div class="relative p-2">
             <div class="t-0 absolute left-5">
-              <p class="flex h-2 w-2 items-center justify-center rounded-full bg-red-500 p-2 text-xs text-gray-800 dark:text-white">
+              <p
+                class="flex h-2 w-2 items-center justify-center rounded-full bg-red-500 p-2 text-xs text-gray-800 dark:text-white">
               </p>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -111,7 +116,7 @@
                   class="focus:outline-none text-center w-full bg-gray-200 dark:bg-gray-800 font-semibold text-md hover:text-black focus:text-black  md:text-basecursor-default flex items-center text-gray-500  outline-none"
                   name="custom-input-number" value="0"></input>
                 <button data-action="increment"
-                  class="bg-gray-800 text-gray-500 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-r cursor-pointer">
+                  class="dark:bg-gray-800 bg-gray-500 text-gray-500 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-r cursor-pointer">
                   <span class="m-auto text-2xl font-thin">+</span>
                 </button>
 
@@ -169,32 +174,36 @@
   </aside>
 
   <div id="default-carousel" class="relative w-full" data-carousel="slide">
-    //Slider
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="/docs/images/carousel/carousel-1.svg"
+        <img
+          src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
           class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
       </div>
       <!-- Item 2 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="/docs/images/carousel/carousel-2.svg"
+        <img
+          src="https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWVkaWNpbmV8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60"
           class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
       </div>
       <!-- Item 3 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="/docs/images/carousel/carousel-3.svg"
+        <img
+          src="https://images.unsplash.com/photo-1573883431205-98b5f10aaedb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
           class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
       </div>
       <!-- Item 4 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="/docs/images/carousel/carousel-4.svg"
+        <img
+          src="https://images.unsplash.com/photo-1628771065518-0d82f1938462?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
           class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
       </div>
       <!-- Item 5 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="/docs/images/carousel/carousel-5.svg"
+        <img
+          src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
           class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
       </div>
     </div>
@@ -217,8 +226,8 @@
       data-carousel-prev>
       <span
         class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10">
-        <svg aria-hidden="true" class="h-5 w-5 text-gray-800 dark:text-white dark:text-gray-800 sm:h-6 sm:w-6" fill="none"
-          stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg aria-hidden="true" class="h-5 w-5 text-gray-800 dark:text-white dark:text-gray-800 sm:h-6 sm:w-6"
+          fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
         </svg>
         <span class="sr-only">Previous</span>
@@ -229,8 +238,8 @@
       data-carousel-next>
       <span
         class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10">
-        <svg aria-hidden="true" class="h-5 w-5 text-gray-800 dark:text-white dark:text-gray-800 sm:h-6 sm:w-6" fill="none"
-          stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg aria-hidden="true" class="h-5 w-5 text-gray-800 dark:text-white dark:text-gray-800 sm:h-6 sm:w-6"
+          fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
         </svg>
         <span class="sr-only">Next</span>
@@ -242,11 +251,13 @@
     <div class="container mx-auto px-5 py-24">
       <div class="mb-20 flex w-full flex-wrap">
         <div class="mb-6 w-full lg:mb-0 lg:w-1/2">
-          <h1 class="title-font mb-2 text-2xl font-medium text-gray-800 dark:text-white sm:text-3xl">Lorem ipsum dolor sit amet
+          <h1 class="title-font mb-2 text-2xl font-medium text-gray-800 dark:text-white sm:text-3xl">Lorem ipsum dolor
+            sit amet
             consectetur.</h1>
           <div class="h-1 w-20 rounded bg-green-500"></div>
         </div>
-        <p class="w-full leading-relaxed text-gray-800 dark: text-gray-900 dark:text-gray-400 text-opacity-90 lg:w-1/2">Lorem, ipsum dolor sit amet consectetur
+        <p class="w-full leading-relaxed text-gray-800 dark: text-gray-900 dark:text-gray-400 text-opacity-90 lg:w-1/2">
+          Lorem, ipsum dolor sit amet consectetur
           adipisicing elit. Animi at ad necessitatibus quod voluptas, inventore pariatur dignissimos nostrum vel minus,
           qui est excepturi? Molestiae dignissimos dolor odit beatae accusantium obcaecati.</p>
       </div>
@@ -254,11 +265,13 @@
         <a href="product_description.html" class="p-4 md:w-1/2 xl:w-1/4">
           <div>
             <div class="rounded-lg bg-gray-200 dark:bg-gray-800 bg-opacity-40 p-6">
-              <img class="mb-6 h-40 w-full rounded object-cover object-center" src="/image/Ambien.jpg"
-                alt="content" />
-              <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400">Medicine</h3>
+              <img class="mb-6 h-40 w-full rounded object-cover object-center" src="/image/Ambien.jpg" alt="content" />
+              <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400">Medicine
+              </h3>
               <h2 class="title-font mb-4 text-lg font-medium text-gray-800 dark:text-white">Ambien</h2>
-              <p class="text-base leading-relaxed">Ambien is a brand name for the medication zolpidem, which is commonly prescribed to treat insomnia, a sleep disorder characterized by difficulty falling asleep or staying asleep.</p>
+              <p class="text-base leading-relaxed">Ambien is a brand name for the medication zolpidem, which is commonly
+                prescribed to treat insomnia, a sleep disorder characterized by difficulty falling asleep or staying
+                asleep.</p>
             </div>
           </div>
         </a>
@@ -267,28 +280,35 @@
             <div class="rounded-lg bg-gray-200 dark:bg-gray-800 bg-opacity-40 p-6">
               <img class="mb-6 h-40 w-full rounded object-cover object-center" src="/image/Amoxil, Biomox, Polymox.jpg"
                 alt="content" />
-              <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400">Medicine</h3>
+              <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400">Medicine
+              </h3>
               <h2 class="title-font mb-4 text-lg font-medium text-gray-800 dark:text-white">Amoxil</h2>
-              <p class="text-base leading-relaxed">Amoxil is a brand name for the antibiotic medication amoxicillin. It belongs to the penicillin class of antibiotics and is commonly prescribed to treat a wide range of bacterial infections.</p>
+              <p class="text-base leading-relaxed">Amoxil is a brand name for the antibiotic medication amoxicillin. It
+                belongs to the penicillin class of antibiotics and is commonly prescribed to treat a wide range of
+                bacterial infections.</p>
             </div>
           </div>
         </a>
         <div class="p-4 md:w-1/2 xl:w-1/4">
           <div class="rounded-lg bg-gray-200 dark:bg-gray-800 bg-opacity-40 p-6">
-            <img class="mb-6 h-40 w-full rounded object-cover object-center" src="/image/benzonatate-capsules-lupin-box-and-blister-pack-front-presentation-500x500.webp"
+            <img class="mb-6 h-40 w-full rounded object-cover object-center"
+              src="/image/benzonatate-capsules-lupin-box-and-blister-pack-front-presentation-500x500.webp"
               alt="content" />
             <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400">Medicine</h3>
             <h2 class="title-font mb-4 text-lg font-medium text-gray-800 dark:text-white">Pudinhara</h2>
-            <p class="text-base leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quia eligendi saepe libero magnam similique.</p>
+            <p class="text-base leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quia
+              eligendi saepe libero magnam similique.</p>
           </div>
         </div>
         <div class="p-4 md:w-1/2 xl:w-1/4">
           <div class="rounded-lg bg-gray-200 dark:bg-gray-800 bg-opacity-40 p-6">
-            <img class="mb-6 h-40 w-full rounded object-cover object-center" src="/image/gabapentin-packet-a-drug-used-to-treat-epilepsy-sometimes-used-for-DF9K91.jpg"
+            <img class="mb-6 h-40 w-full rounded object-cover object-center"
+              src="/image/gabapentin-packet-a-drug-used-to-treat-epilepsy-sometimes-used-for-DF9K91.jpg"
               alt="content" />
             <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400">Drug</h3>
             <h2 class="title-font mb-4 text-lg font-medium text-gray-800 dark:text-white">gabapentin</h2>
-            <p class="text-base leading-relaxed">Gabapentin is a prescription medication that is commonly used to treat various conditions, primarily epilepsy and certain types of nerve pain.</p>
+            <p class="text-base leading-relaxed">Gabapentin is a prescription medication that is commonly used to treat
+              various conditions, primarily epilepsy and certain types of nerve pain.</p>
           </div>
         </div>
       </div>
@@ -299,10 +319,12 @@
     <div class="container mx-auto px-5 py-24">
       <div class="mb-20 flex w-full flex-wrap">
         <div class="mb-6 w-full lg:mb-0 lg:w-1/2">
-          <h1 class="title-font mb-2 text-2xl font-medium text-gray-800 dark:text-white sm:text-3xl">Pitchfork Kickstarter Taxidermy</h1>
+          <h1 class="title-font mb-2 text-2xl font-medium text-gray-800 dark:text-white sm:text-3xl">Pitchfork
+            Kickstarter Taxidermy</h1>
           <div class="h-1 w-20 rounded bg-green-500"></div>
         </div>
-        <p class="w-full leading-relaxed text-gray-800 dark: text-gray-900 dark:text-gray-400 text-opacity-90 lg:w-1/2">Whatever cardigan tote bag tumblr
+        <p class="w-full leading-relaxed text-gray-800 dark: text-gray-900 dark:text-gray-400 text-opacity-90 lg:w-1/2">
+          Whatever cardigan tote bag tumblr
           hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of
           them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
       </div>
@@ -313,7 +335,10 @@
               alt="content" />
             <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400"></h3>
             <h2 class="title-font mb-4 text-lg font-medium text-gray-800 dark:text-white">Drisdol</h2>
-            <p class="text-base leading-relaxed">Ergocalciferol (Drisdol) is used to treat and prevent vitamin D deficiency, which can lead to conditions like osteoporosis, rickets, and other bone disorders. It's commonly prescribed when dietary intake or exposure to sunlight is insufficient to meet the body's vitamin D needs.</p>
+            <p class="text-base leading-relaxed">Ergocalciferol (Drisdol) is used to treat and prevent vitamin D
+              deficiency, which can lead to conditions like osteoporosis, rickets, and other bone disorders. It's
+              commonly prescribed when dietary intake or exposure to sunlight is insufficient to meet the body's vitamin
+              D needs.</p>
           </div>
         </div>
         <div class="p-4 md:w-1/2 xl:w-1/4">
@@ -322,7 +347,9 @@
               alt="content" />
             <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400">Fever</h3>
             <h2 class="title-font mb-4 text-lg font-medium text-gray-800 dark:text-white">Paracetamol</h2>
-            <p class="text-base leading-relaxed">paracetamol is effective for pain relief and fever reduction, it doesn't have the same anti-inflammatory effects as medications like ibuprofen or aspirin. Therefore, if you're dealing with inflammation along with pain or fever, you might want to consult a healthcare ...</p>
+            <p class="text-base leading-relaxed">paracetamol is effective for pain relief and fever reduction, it
+              doesn't have the same anti-inflammatory effects as medications like ibuprofen or aspirin. Therefore, if
+              you're dealing with inflammation along with pain or fever, you might want to consult a healthcare ...</p>
           </div>
         </div>
         <div class="p-4 md:w-1/2 xl:w-1/4">
@@ -331,7 +358,9 @@
               alt="content" />
             <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400">Medicine</h3>
             <h2 class="title-font mb-4 text-lg font-medium text-gray-800 dark:text-white">Adderall</h2>
-            <p class="text-base leading-relaxed">Adderall is a prescription medication that contains a combination of amphetamine and dextroamphetamine. These are stimulant drugs that affect certain chemicals in the brain and nerves that contribute to hyperactivity and impulse control.</p>
+            <p class="text-base leading-relaxed">Adderall is a prescription medication that contains a combination of
+              amphetamine and dextroamphetamine. These are stimulant drugs that affect certain chemicals in the brain
+              and nerves that contribute to hyperactivity and impulse control.</p>
           </div>
         </div>
         <div class="p-4 md:w-1/2 xl:w-1/4">
@@ -340,7 +369,9 @@
               alt="content" />
             <h3 class="title-font text-xs font-medium tracking-widest text-green-600 dark:text-green-400">Medicine</h3>
             <h2 class="title-font mb-4 text-lg font-medium text-gray-800 dark:text-white">Advil</h2>
-            <p class="text-base leading-relaxed">Advil is a brand name for a medication called ibuprofen, which is a nonsteroidal anti-inflammatory drug (NSAID). It is commonly used as an over-the-counter pain reliever, fever reducer, and anti-inflammatory medication.</p>
+            <p class="text-base leading-relaxed">Advil is a brand name for a medication called ibuprofen, which is a
+              nonsteroidal anti-inflammatory drug (NSAID). It is commonly used as an over-the-counter pain reliever,
+              fever reducer, and anti-inflammatory medication.</p>
           </div>
         </div>
       </div>
@@ -402,10 +433,11 @@
     <div
       class="container mx-auto flex flex-col flex-wrap px-5 py-24 md:flex-row md:flex-nowrap md:items-center lg:items-start">
       <div class="mx-auto w-64 flex-shrink-0 text-center md:mx-0 md:text-left">
-        <a class="title-font flex items-center justify-center font-medium text-gray-800 dark:text-white md:justify-start">
+        <a
+          class="title-font flex items-center justify-center font-medium text-gray-800 dark:text-white md:justify-start">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-            stroke-linejoin="round" stroke-width="2" class="h-10 w-10 rounded-full bg-green-500 p-2 text-gray-800 dark:text-white"
-            viewBox="0 0 24 24">
+            stroke-linejoin="round" stroke-width="2"
+            class="h-10 w-10 rounded-full bg-green-500 p-2 text-gray-800 dark:text-white" viewBox="0 0 24 24">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
           <span class="ml-3 text-xl"> B.M.Pharma</span>
@@ -420,13 +452,15 @@
               <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">First Link</a>
             </li>
             <li>
-              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second Link</a>
+              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second
+                Link</a>
             </li>
             <li>
               <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Third Link</a>
             </li>
             <li>
-              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth Link</a>
+              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth
+                Link</a>
             </li>
           </nav>
         </div>
@@ -437,13 +471,15 @@
               <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">First Link</a>
             </li>
             <li>
-              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second Link</a>
+              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second
+                Link</a>
             </li>
             <li>
               <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Third Link</a>
             </li>
             <li>
-              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth Link</a>
+              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth
+                Link</a>
             </li>
           </nav>
         </div>
@@ -454,13 +490,15 @@
               <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">First Link</a>
             </li>
             <li>
-              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second Link</a>
+              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second
+                Link</a>
             </li>
             <li>
               <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Third Link</a>
             </li>
             <li>
-              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth Link</a>
+              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth
+                Link</a>
             </li>
           </nav>
         </div>
@@ -471,22 +509,24 @@
               <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">First Link</a>
             </li>
             <li>
-              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second Link</a>
+              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Second
+                Link</a>
             </li>
             <li>
               <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Third Link</a>
             </li>
             <li>
-              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth Link</a>
+              <a class=" text-gray-900 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400">Fourth
+                Link</a>
             </li>
           </nav>
         </div>
       </div>
     </div>
-    <div class="bg-gray-800 bg-opacity-75">
+    <div class="dark:bg-gray-800 bg-gray-500 bg-opacity-75">
       <div class="container mx-auto flex flex-col flex-wrap px-5 py-4 sm:flex-row">
         <p class="text-center text-sm text-gray-800 dark: text-gray-900 dark:text-gray-400 sm:text-left">
-          © 2020  B.M.Pharma —
+          © 2020 B.M.Pharma —
           <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="ml-1 text-gray-500"
             target="_blank">@knyttneve</a>
         </p>
@@ -524,7 +564,7 @@
       </div>
     </div>
   </footer>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 </body>
 
 </html>
